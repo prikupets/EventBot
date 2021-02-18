@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T13:57:18.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="TdsrfS2ckVbnycUijxOh" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-18T13:59:59.108Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="Y_8iS8lMgM2JE_fVX_S_" version="14.3.1" type="github">
   <diagram id="Xb4VBxsHIV5QUS3rKN3F" name="Page-1">
-    <mxGraphModel dx="1763" dy="3880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3214" dy="4908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -646,39 +646,39 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lEEThv4qRQntToVavxXk-6" value="VKBot.newMessage(groupId, message)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;textOpacity=40;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="-39" width="230" height="60" as="geometry" />
+          <mxGeometry x="-980" y="-39" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lEEThv4qRQntToVavxXk-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#BABABA;" edge="1" parent="1" source="lEEThv4qRQntToVavxXk-7" target="lEEThv4qRQntToVavxXk-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lEEThv4qRQntToVavxXk-7" value="Bot.HandlerManager.handle(new UpdateNewMessage(Application.dataManager.getUsers().getById(message.getFromId()), message.getId(), message.getText()))" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;textOpacity=40;" vertex="1" parent="1">
-          <mxGeometry x="-665" y="51" width="560" height="60" as="geometry" />
+          <mxGeometry x="-1145" y="51" width="560" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lEEThv4qRQntToVavxXk-11" value="Path to create event command execution" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;textOpacity=40;" vertex="1" parent="1">
-          <mxGeometry x="-525" y="-110" width="300" height="20" as="geometry" />
+          <mxGeometry x="-1005" y="-110" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lEEThv4qRQntToVavxXk-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#BABABA;" edge="1" parent="1" source="lEEThv4qRQntToVavxXk-12" target="lEEThv4qRQntToVavxXk-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lEEThv4qRQntToVavxXk-12" value="HandlerManager.passUpdateOnChain(update, NEW_MESSAGE_HANDLER_CHAIN)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;textOpacity=40;" vertex="1" parent="1">
-          <mxGeometry x="-567.5" y="151" width="365" height="60" as="geometry" />
+          <mxGeometry x="-1047.5" y="151" width="365" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lEEThv4qRQntToVavxXk-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#BABABA;" edge="1" parent="1" source="lEEThv4qRQntToVavxXk-13" target="lEEThv4qRQntToVavxXk-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lEEThv4qRQntToVavxXk-13" value="CommandHandler.tryHandle(update)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;textOpacity=40;" vertex="1" parent="1">
-          <mxGeometry x="-590" y="270" width="410" height="60" as="geometry" />
+          <mxGeometry x="-1070" y="270" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lEEThv4qRQntToVavxXk-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#BABABA;" edge="1" parent="1" source="lEEThv4qRQntToVavxXk-95" target="lEEThv4qRQntToVavxXk-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lEEThv4qRQntToVavxXk-95" value="new CreateEventCommand(update.getSender()).execute()" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;textOpacity=40;" vertex="1" parent="1">
-          <mxGeometry x="-590" y="380" width="410" height="60" as="geometry" />
+          <mxGeometry x="-1070" y="380" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lEEThv4qRQntToVavxXk-97" value="BuilderByMessagesHandler.stateContextsByUsers.get(sender).setState(new StateEventName(new Event(sender)))" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;textOpacity=40;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="480" width="590" height="60" as="geometry" />
+          <mxGeometry x="-1160" y="480" width="590" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lEEThv4qRQntToVavxXk-134" value="TODO:&#xa; keyboard support, &#xa; save-load users and events&#xa;&#xa;FIX:&#xa; eventMainMessage&#xa; BuilderByMessageManager -&gt; to not static&#xa; VKBot instantiating&#xa; rethink locales" style="strokeColor=none;shadow=0;gradientColor=none;fontSize=18;align=left;spacing=10;fontColor=#;9E9E9E;verticalAlign=top;spacingTop=100;" vertex="1" parent="1">
+        <mxCell id="lEEThv4qRQntToVavxXk-134" value="TODO:&#xa; keyboard support, &#xa; save-load users and events&#xa;&#xa;FIX:&#xa; eventMainMessage&#xa; BuilderByMessageManager -&gt; to not static&#xa; VKBot instantiating&#xa; rethink locales&#xa; user aliases for different bots at same time" style="strokeColor=none;shadow=0;gradientColor=none;fontSize=18;align=left;spacing=10;fontColor=#;9E9E9E;verticalAlign=top;spacingTop=100;" vertex="1" parent="1">
           <mxGeometry x="-20" y="-1220" width="450" height="350" as="geometry" />
         </mxCell>
       </root>
