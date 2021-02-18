@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+    google()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    //compile 'com.vk.api:sdk:1.0.8'
+    compile files('libs/vk-java-sdk.sdk.main.jar')
+
+
+    //Binding for Log4J -->
+
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.28'
+    compile group: 'com.google.guava', name: 'guava', version: '23.0'
+    compile group: 'org.eclipse.jetty', name: 'jetty-server', version: '7.5.4.v20111024'
+}
+
+//configurations.all {
+//    exclude module: 'slf4j-log4j:2.11,2'
+//}
