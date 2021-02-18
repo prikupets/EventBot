@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T20:33:12.032Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="OJCHUynZH2VFJp2iHJR1" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-18T13:57:18.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="TdsrfS2ckVbnycUijxOh" version="14.3.1" type="github">
   <diagram id="Xb4VBxsHIV5QUS3rKN3F" name="Page-1">
     <mxGraphModel dx="1763" dy="3880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -678,7 +678,7 @@
         <mxCell id="lEEThv4qRQntToVavxXk-97" value="BuilderByMessagesHandler.stateContextsByUsers.get(sender).setState(new StateEventName(new Event(sender)))" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;textOpacity=40;" vertex="1" parent="1">
           <mxGeometry x="-680" y="480" width="590" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lEEThv4qRQntToVavxXk-134" value="TODO:&#xa; keyboard support, &#xa; save-load users and events&#xa;&#xa;FIX:&#xa; eventMainMessage&#xa; BuilderByMessageManager -&gt; to not static&#xa; VKBot instantiating" style="strokeColor=none;shadow=0;gradientColor=none;fontSize=18;align=left;spacing=10;fontColor=#;9E9E9E;verticalAlign=top;spacingTop=100;" vertex="1" parent="1">
+        <mxCell id="lEEThv4qRQntToVavxXk-134" value="TODO:&#xa; keyboard support, &#xa; save-load users and events&#xa;&#xa;FIX:&#xa; eventMainMessage&#xa; BuilderByMessageManager -&gt; to not static&#xa; VKBot instantiating&#xa; rethink locales" style="strokeColor=none;shadow=0;gradientColor=none;fontSize=18;align=left;spacing=10;fontColor=#;9E9E9E;verticalAlign=top;spacingTop=100;" vertex="1" parent="1">
           <mxGeometry x="-20" y="-1220" width="450" height="350" as="geometry" />
         </mxCell>
       </root>
